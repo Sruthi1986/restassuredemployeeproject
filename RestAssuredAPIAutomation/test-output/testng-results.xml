@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EmployeesRestAPISuite" duration-ms="6109" started-at="2019-08-22T00:53:59 EDT" finished-at="2019-08-22T00:54:06 EDT">
+    <groups>
+    </groups>
+    <test name="RESTAPItest" duration-ms="6109" started-at="2019-08-22T00:53:59 EDT" finished-at="2019-08-22T00:54:06 EDT">
+      <class name="com.employeesapi.testcases.TC002_GetSingleemprecord">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employeesapi.testcases.TC002_GetSingleemprecord@3b084709]" name="setup" is-config="true" duration-ms="9" started-at="2019-08-22T00:54:02 EDT" finished-at="2019-08-22T00:54:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getsingleemployees()[pri:0, instance:com.employeesapi.testcases.TC002_GetSingleemprecord@3b084709]" name="getsingleemployees" is-config="true" duration-ms="3298" started-at="2019-08-22T00:54:02 EDT" finished-at="2019-08-22T00:54:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsingleemployees -->
+        <test-method status="PASS" signature="checkresponsebody()[pri:0, instance:com.employeesapi.testcases.TC002_GetSingleemprecord@3b084709]" name="checkresponsebody" duration-ms="3" started-at="2019-08-22T00:54:05 EDT" finished-at="2019-08-22T00:54:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkresponsebody -->
+        <test-method status="PASS" signature="checkresponsetime()[pri:0, instance:com.employeesapi.testcases.TC002_GetSingleemprecord@3b084709]" name="checkresponsetime" duration-ms="1" started-at="2019-08-22T00:54:06 EDT" finished-at="2019-08-22T00:54:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkresponsetime -->
+        <test-method status="PASS" signature="checkstatus()[pri:0, instance:com.employeesapi.testcases.TC002_GetSingleemprecord@3b084709]" name="checkstatus" duration-ms="4" started-at="2019-08-22T00:54:06 EDT" finished-at="2019-08-22T00:54:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method status="PASS" signature="teardpwn()[pri:0, instance:com.employeesapi.testcases.TC002_GetSingleemprecord@3b084709]" name="teardpwn" is-config="true" duration-ms="2" started-at="2019-08-22T00:54:06 EDT" finished-at="2019-08-22T00:54:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardpwn -->
+      </class> <!-- com.employeesapi.testcases.TC002_GetSingleemprecord -->
+      <class name="com.employeesapi.testcases.TC001_Get_all_employees">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employeesapi.testcases.TC001_Get_all_employees@57855c9a]" name="setup" is-config="true" duration-ms="46" started-at="2019-08-22T00:54:00 EDT" finished-at="2019-08-22T00:54:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getallemployees()[pri:0, instance:com.employeesapi.testcases.TC001_Get_all_employees@57855c9a]" name="getallemployees" is-config="true" duration-ms="2408" started-at="2019-08-22T00:54:00 EDT" finished-at="2019-08-22T00:54:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallemployees -->
+        <test-method status="PASS" signature="checkresponsebody()[pri:0, instance:com.employeesapi.testcases.TC001_Get_all_employees@57855c9a]" name="checkresponsebody" duration-ms="50" started-at="2019-08-22T00:54:02 EDT" finished-at="2019-08-22T00:54:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkresponsebody -->
+        <test-method status="PASS" signature="checkresponsetime()[pri:0, instance:com.employeesapi.testcases.TC001_Get_all_employees@57855c9a]" name="checkresponsetime" duration-ms="2" started-at="2019-08-22T00:54:02 EDT" finished-at="2019-08-22T00:54:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkresponsetime -->
+        <test-method status="PASS" signature="checkstatus()[pri:0, instance:com.employeesapi.testcases.TC001_Get_all_employees@57855c9a]" name="checkstatus" duration-ms="2" started-at="2019-08-22T00:54:02 EDT" finished-at="2019-08-22T00:54:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+      </class> <!-- com.employeesapi.testcases.TC001_Get_all_employees -->
+    </test> <!-- RESTAPItest -->
+  </suite> <!-- EmployeesRestAPISuite -->
+</testng-results>
